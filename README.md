@@ -1,7 +1,5 @@
 This repo demonstrates how to get the display text of the current selection for a django ChoiceField.
 
-It's easy to get a ChoiceField's currently selected value using `form.field.value`, but it's a lot harder to get the selected value's display text.
-
 Maybe someone can show me an easier way to do this?
 
 ## Screenshot
