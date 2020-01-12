@@ -1,0 +1,8 @@
+{% load form_tags %}
+
+<form action="/" method="post">
+    {% csrf_token %}
+    {{ form }}
+    <p>Submitted value: {{ form.category|display_value }}<p>
+    <div><input type="submit" value="Submit"></div>
+</form>
